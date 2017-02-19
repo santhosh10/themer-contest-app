@@ -52,7 +52,7 @@
      * The name of the theme for this application.
      */
 
-    "theme": "theme-triton",
+    "theme": "themecontest-modern",
 
 
     /**
@@ -65,7 +65,8 @@
      *      ]
      */
     "requires": [
-        "font-awesome"
+        "font-awesome",
+        "themecontest-modern"
     ],
 
     /**
@@ -110,8 +111,8 @@
          */
 
         "generated": {
-            "var": "sass/save.scss",
-            "src": "sass/save"
+            "var": "packages/local/themecontest-modern/${toolkit.name}/sass/save.scss",
+            "src": "packages/local/themecontest-modern/${toolkit.name}/sass/save"
         },
 
 

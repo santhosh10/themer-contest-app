@@ -18,7 +18,7 @@ Ext.define('ThemerContestApp.model.Speaker', {
     ],
     proxy : {
         type : 'ajax',
-        url : '../resources/data/speaker-session.json',
+        url : 'resources/data/speaker-session.json',
         reader : 'json'
     }
 })

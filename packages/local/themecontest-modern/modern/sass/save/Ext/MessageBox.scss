@@ -1,0 +1,18 @@
+.#{$prefix}msgbox,
+.#{$prefix}container.#{$prefix}floated,
+.#{$prefix}panel.#{$prefix}floated {
+  background-color: #111;
+
+  .#{$prefix}panel-header {
+    background-color: #111;
+    color: $color;
+    box-shadow: none;
+  }
+
+  .#{$prefix}toolbar-docked-bottom {
+
+    .#{$prefix}button {
+      color: $base-color;
+    }
+  }
+}

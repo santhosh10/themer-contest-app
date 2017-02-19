@@ -6,6 +6,8 @@
 Ext.define('ThemerContestApp.view.main.Content', {
     extend : 'Ext.Container',
     xtype : 'content',
+    ui :'contentcard',
+    
     layout : {
         type : 'card',
         animation : {
@@ -15,4 +17,4 @@ Ext.define('ThemerContestApp.view.main.Content', {
             direction : 'right'
         }
     }
-})
+});

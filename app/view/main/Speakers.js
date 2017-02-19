@@ -8,6 +8,7 @@ Ext.define('ThemerContestApp.view.main.Speakers', {
     xtype : 'speakers',
     border : true,
     layout : 'vbox',
+    ui : 'speakers-panel',
     items : !Ext.os.is.Phone ? [
         {
             xtype : 'toolbar',
@@ -101,7 +102,7 @@ Ext.define('ThemerContestApp.view.main.Speakers', {
         {
             xtype : 'list',
             ui : 'speakers-list',
-            itemTpl : '{name}<br /><span style="color:#a0a0a0">{job_title}</span>',
+            itemTpl : '{name}<br /><span style="color:#ffffff">{job_title}</span>',
             store : 'Speaker',
             flex : 1,
             height : 450,

@@ -53,6 +53,7 @@ extend : 'Ext.grid.Grid',
                                             {
                                                 xtype : 'toolbar',
                                                 docked : 'bottom',
+                                                ui : 'morning-toolbar',
                                                 items : [
                                                     '->',
                                                     {

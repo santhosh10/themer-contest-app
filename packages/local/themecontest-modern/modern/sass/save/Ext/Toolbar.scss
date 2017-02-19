@@ -1,0 +1,21 @@
+@include toolbar-ui ($font-family: $ui-morning-toolbar-toolbar-font-family,$font-size: $ui-morning-toolbar-toolbar-font-size,$font-size-big: $ui-morning-toolbar-toolbar-font-size-big,$font-weight: $ui-morning-toolbar-toolbar-font-weight,$background-color: $ui-morning-toolbar-toolbar-background-color,$background-gradient: $ui-morning-toolbar-toolbar-background-gradient,$horizontal-spacing: $ui-morning-toolbar-toolbar-horizontal-spacing,$horizontal-spacing-big: $ui-morning-toolbar-toolbar-horizontal-spacing-big,$line-height: $ui-morning-toolbar-toolbar-line-height,$line-height-big: $ui-morning-toolbar-toolbar-line-height-big,$min-height: $ui-morning-toolbar-toolbar-min-height,$min-height-big: $ui-morning-toolbar-toolbar-min-height-big,$padding: $ui-morning-toolbar-toolbar-padding,$padding-big: $ui-morning-toolbar-toolbar-padding-big,$vertical-spacing: $ui-morning-toolbar-toolbar-vertical-spacing,$vertical-spacing-big: $ui-morning-toolbar-toolbar-vertical-spacing-big,$title-color: $ui-morning-toolbar-toolbar-title-color,$title-font-family: $ui-morning-toolbar-toolbar-title-font-family,$title-font-size: $ui-morning-toolbar-toolbar-title-font-size,$title-font-size-big: $ui-morning-toolbar-toolbar-title-font-size-big,$title-font-weight: $ui-morning-toolbar-toolbar-title-font-weight,$title-padding: $ui-morning-toolbar-toolbar-title-padding,$title-padding-big: $ui-morning-toolbar-toolbar-title-padding-big,$ui: 'morning-toolbar');
+
+.#{$prefix}floating .#{$prefix}toolbar.#{$prefix}docked-bottom, .#{$prefix}floated .#{$prefix}toolbar.#{$prefix}docked-bottom {
+    padding: $content-padding/2 $content-padding;
+    background-color: $base-color;
+    color: $color;
+    height: auto;
+
+    .#{$prefix}button {
+        color: $color;
+        background-color: $background-color;
+
+        &.x-button-pressing, &.x-button.x-button-pressed {
+            color: $base-foreground-color;
+        }
+
+        &:last-child {
+            margin: 5px;
+        }
+    }
+}
